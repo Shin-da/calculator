@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="function">
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <div class="navv">
+                    <a class="option" href="#section1">
+                        Program 1
+                    </a>
+                    <a class="option" href="#section2">
+                        Program 2
+                    </a>
+                    <a class="option" href="#section3">
+                        Program 3
+                    </a>
+                    <a class="option" href="#section4">
+                        Program 4
+                    </a>
+                    <a class="option" href="#section5">
+                        Program 5
+                    </a>
+                    <a class="option" href="#section6">
+                        Program 6
+                    </a>
+                    <a class="option" href="#section7">
+                        Program 7
+                    </a>
+                    <a class="option" href="#section8">
+                        Program 8
+                    </a>
+                    <a class="option" href="#section9">
+                        Program 9
+                    </a>
+                </div>
+                <a href="members.html">Program</a>
+            </li>
+            </li>
+
+            <li class="Garcia">
+                Garcia
+            </li>
+        </ul>
+    </nav>
+
+    <div class="section section1" id="section1">
+
+        <div class="container">
+            <div class="info">
+                <div>
+                    <h1>ADDITION</h1><br /><br />
+                </div>
+                <div>
+                    <p>
+                        Input two numbers, click the "COMPUTE" button, and the webpage
+                        will display the sum of these two numbers below the button.
+                    </p>
+                </div>
+            </div>
+
+            <div class="rightSide">
+                <div class="calculator">
+                    <div class="">
+                        <div class="form">
+                            <label for="num1a">ENTER FIRST</label>
+                            <input type="number" id='num1a' /><br />
+                            <label for="num2a">ENTER SECOND</label>
+                            <input type="number" id='num2a' />
+                        </div>
+                        <div class="button-result">
+                            <button class="button" onclick="addTwoNums()">COMPUTE</button>
+                            <div class="answer">
+                                <p id='resulta'> Result</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#section2">
+                        <div class="next"> > </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="section section2" id="section2">
+
+        <div class="container">
+            <div class="info">
+                <div>
+                    <h1>Positive <br /> or Negative</h1><br />
+                </div>
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus perferendis minima facere
+                        quae voluptate tempore, laboriosam maxime deleniti. Optio, at quia dolores molestiae nam dicta
+                        eos quam mollitia aspernatur ad.
+                    </p>
+                </div>
+            </div>
+
+            <div class=" rightSide">
+                <div class="calculator">
+                    <a href="#section1">
+                        <div class="previous">
+                            < </div>
+                    </a>
+                    <div class="">
+                        <div class="form">
+                            <label for="num1b">ENTER FIRST</label>
+                            <input type="number" id='num1b' /><br />
+
+                            <label for="num2b">ENTER SECOND</label>
+                            <input type="number" id='num2b' />
+                        </div>
+                        <div class="button-result">
+                            <button class="button" onclick="checkb()">CHECK</button>
+                            <div class="answer">
+                                <p id='resultb'>Result</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#section3">
+                        <div class="next"> > </div>
+                    </a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="section section3" id="section3">
+
+            <div class="container">
+                <div class="info">
+                    <div>
+                        <h1>Compare Two Numbers</h1><br /><br />
+                    </div>
+                    <div>
+                        <p>
+                            This Program can determine which number is greater between the two numbers input
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class=" rightSide">
+                    <div class="calculator">
+                        <div class="">
+                            <a href="#section2">
+                                <div class="previous">
+                                    < </div>
+                            </a>
+                            <div class="form">
+                                <label for="num1c">ENTER FIRST</label>
+                                <input type="number" id='num1c' /><br />
+
+                                <label for="num2c">ENTER SECOND</label>
+                                <input type="number" id='num2c' />
+                            </div>
+
+                            <div class="button-result">
+                                <button class="button" onclick="compare()">COMPUTE</button>
+                                <div class="answer">
+                                    <p id='resultc'> Result</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#section4">
+                            <div class="next"> > </div>
+                        </a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="section section4" id="section4">
+
+            <div class="container">
+                <div class="info">
+                    <div>
+                        <h1>Average</h1><br /><br />
+                    </div>
+                    <div>
+                        <p>
+                            This program can compute a four-quiz average.
+                        </p>
+                    </div>
+                </div>
+
+                <div class=" rightSide">
+                    <div class="calculator">
+                        <a href="#section3">
+                            <div class="previous">
+                                < </div>
+                        </a>
+                        <div class="">
+                            <div class="form">
+                                <label for="q1">Q1</label>
+                                <input type="number" id='q1' /><br />
+
+                                <label for="q2">Q2</label>
+                                <input type="number" id='q2' /><br />
+
+                                <label for="q3">Q3</label>
+                                <input type="number" id='q3' /><br />
+
+                                <label for="q4">Q4</label>
+                                <input type="number" id='q4' />
+                            </div>
+                            <br />
+                            <div class="button-result">
+                                <button class="button" onclick="average()">COMPUTE</button>
+                                <div class="answer">
+                                    <p id='average'> Result</p>
+                                </div>
+                                <div class="answer">
+                                    <p id='resultd'> Remarks</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#section5">
+                            <div class="next"> > </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section section5" id="section5">
+
+            <div class="container">
+                <div class="info">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Labore facilis quasi exercitationem. Atque, ratione?
+                        Eveniet in aut perspiciatis officia repudiandae, consequuntur
+                        enim,
+                        similique obcaecati nesciunt dolores iusto?
+                        Quos, id labore.
+                    </p>
+                </div>
+
+                <div class=" rightSide">
+                    <div class="calculator">
+                        <a href="#section4">
+                            <div class="previous">
+                                < </div>
+                        </a>
+                        <div class="">
+                            <div class="form">
+                                <label for="num1e"> ENTER 1st </label>
+                                <input type="number" id='num1e' /><br />
+                                <label for="num2e">ENTER 2nd</label>
+                                <input type="number" id='num2e' /><br />
+                                <label for="num3e">ENTER 3rd</label>
+                                <input type="number" id='num3e' /><br />
+                                <label for="num4e">ENTER 4th</label>
+                                <input type="number" id='num4e' /><br />
+                                <label for="num5e">ENTER 5th</label>
+                                <input type="number" id='num5e' /><br /></br>
+                            </div>
+
+                            <div class="button-result">
+                                <button class="button" onclick="processNumbers()">PROCESS</button>
+                                <div class="answer">
+                                    <p id='resulte'> Result</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#section6">
+                            <div class="next"> > </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section " id="section6">
+
+                <div class="container">
+                    <div class="info">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Labore facilis quasi exercitationem. Atque, ratione?
+                            Eveniet in aut perspiciatis officia repudiandae, consequuntur
+                            enim,
+                            similique obcaecati nesciunt dolores iusto?
+                            Quos, id labore.
+                        </p>
+                    </div>
+
+                    <div class=" rightSide">
+                        <div class="calculator">
+                            <a href="#section5">
+                                <div class="previous">
+                                    < </div>
+                            </a>
+                            <div class="">
+                                <div class="form">
+                                    <label for="name">Enter Name</label></br>
+                                    <input type="text" id="name" /><br />
+
+                                    <label for="age">Enter Age</label></br>
+                                    <input type="number" id="age" /></br>
+
+                                </div>
+                                <div class="button-result">
+                                    <button class="button" onclick="checkVote()">CHECK</button>
+                                    <div class="answerb">
+                                        <p id='resultf'> Result</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#section7">
+                                <div class="next"> > </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section " id="section7">
+
+                    <div class="container">
+                        <div class="info">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Labore facilis quasi exercitationem. Atque, ratione?
+                                Eveniet in aut perspiciatis officia repudiandae, consequuntur
+                                enim,
+                                similique obcaecati nesciunt dolores iusto?
+                                Quos, id labore.
+                            </p>
+                        </div>
+
+                        <div class=" rightSide">
+                            <div class="calculator">
+                                <a href="#section6">
+                                    <div class="previous">
+                                        < </div>
+                                </a>
+                                <div class="">
+                                    <div class="form">
+                                        <label for="num1g">ENTER FIRST</label>
+                                        <input type="number" id='num1g' /><br /></br>
+
+                                        <label for="num2g">ENTER SECOND</label>
+                                        <input type="number" id='num2g' /></br>
+
+                                    </div>
+                                    <div class="button-result">
+                                        <button class="button" onclick="calculate()">CHECK</button>
+                                        <div class="answer">
+                                            <p id='resultg'> Result</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#section8">
+                                    <div class="next"> > </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="section " id="section8">
+
+                        <div class="container">
+                            <div class="info">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Labore facilis quasi exercitationem. Atque, ratione?
+                                    Eveniet in aut perspiciatis officia repudiandae, consequuntur
+                                    enim,
+                                    similique obcaecati nesciunt dolores iusto?
+                                    Quos, id labore.
+                                </p>
+                            </div>
+
+                            <div class=" rightSide">
+                                <div class="calculator">
+                                    <a href="#section7">
+                                        <div class="previous">
+                                            < </div>
+                                    </a>
+                                    <div class="">
+                                        <div class="form">
+                                            <label for="num1g">ENTER FIRST</label>
+                                            <input type="number" id='num1h' /><br /></br>
+
+                                            <label for="num2g">ENTER SECOND</label>
+                                            <input type="number" id='num2h' /></br>
+
+                                        </div>
+                                        <div class="button-result">
+                                            <button class="button" onclick="check()">CHECK</button>
+                                            <div class="answerb">
+                                                <p id='resulth'> Result</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#section9">
+                                        <div class="next"> > </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="section " id="section9">
+
+                            <div class="container">
+                                <div class="info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Labore facilis quasi exercitationem. Atque, ratione?
+                                        Eveniet in aut perspiciatis officia repudiandae, consequuntur
+                                        enim,
+                                        similique obcaecati nesciunt dolores iusto?
+                                        Quos, id labore.
+                                    </p>
+                                </div>
+
+                                <div class=" rightSide">
+                                    <div class="calculator">
+                                        <a href="#section8">
+                                            <div class="previous">
+                                                < </div>
+                                        </a>
+                                        <div class="">
+                                            <div class="form">
+                                                <label for="numCorrect">ENTER NUMBER OF CORRECT ANSWERS</label><br>
+                                                <input type="number" id='numCorrect' /><br>
+                                        
+                                                <label for="numItems">ENTER NUMBER OF ITEMS</label><br>
+                                                <input type="number" id='numItems' />
+                                            </div>
+                                            <div class="button-result">
+                                                <button class="button" onclick="computeGrade()">CHECK</button>
+                                                <div class="answerb">
+                                                    <p id='resulti'> Result</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+</body>
+<!-- PROGRAM 1 -->
+<script>
+    function addTwoNums() {
+        var A = parseFloat(document.getElementById('num1a').value);
+        var B = parseFloat(document.getElementById('num2a').value);
+        var resulta = A + B;
+        document.getElementById('resulta').innerHTML = resulta;
+    }
+
+</script>
+
+<!-- PROGRAM 2 -->
+
+<script>
+    function checkb() {
+        var A = parseFloat(document.getElementById('num1b').value);
+        var B = parseFloat(document.getElementById('num2b').value);
+        var resultb = A + B;
+
+        var resultElement = document.getElementById('resultb');
+
+        if (resultb > 0) {
+            resultElement.innerHTML = 'POSITIVE';
+        }
+        else if (resultb < 0) {
+            resultElement.innerHTML = 'NEGATIVE';
+        }
+        else {
+            resultElement.innerHTML = 'ZERO';
+        }
+    }
+</script>
+
+<!-- PROGRAM 3 -->
+<script>
+    function compare() {
+        var A = parseFloat(document.getElementById('num1c').value);
+        var B = parseFloat(document.getElementById('num2c').value);
+        var resultc = A + B;
+
+        var resultcElement = document.getElementById('resultc');
+
+        if (A > B) {
+            resultcElement.innerHTML = '1st > 2nd';
+        }
+        else if (A < B) {
+            resultcElement.innerHTML = '1st < 2nd';
+        }
+        else {
+            resultcElement.innerHTML = '1st = 2nd';
+        }
+    }
+</script>
+
+<!-- PROGRAM 4 -->
+<script>
+    function average() {
+        var A = parseFloat(document.getElementById('q1').value);
+        var B = parseFloat(document.getElementById('q2').value);
+        var C = parseFloat(document.getElementById('q3').value);
+        var D = parseFloat(document.getElementById('q4').value);
+        var average = (A + B + C + D) / 4;
+        document.getElementById('average').innerHTML = average;
+
+        if (average >= 75) {
+            (document.getElementById('resultd').innerHTML = 'Pasado');
+        } else {
+            (document.getElementById('resultd').innerHTML = 'Bagsak');
+        }
+    }
+</script>
+
+<!-- PROGRAM 5 -->
+<script>
+    function processNumbers() {
+        var A = parseFloat(document.getElementById('num1e').value);
+        var B = parseFloat(document.getElementById('num2e').value);
+        var C = parseFloat(document.getElementById('num3e').value);
+        var D = parseFloat(document.getElementById('num4e').value);
+        var E = parseFloat(document.getElementById('num5e').value);
+
+        if (C > A) {
+            var resulte = C * A * B * D * E;
+            document.getElementById('resulte').innerHTML = 'Result: ' + resulte;
+        } else if (A > B) {
+            var resulte = D * E;
+            document.getElementById('resulte').innerHTML = 'Result: ' + resulte;
+        } else {
+            document.getElementById('resulte').innerHTML = 'Bye';
+        }
+    }
+</script>
+
+<!-- PROGRAM 6 -->
+
+<script>
+    function checkVote() {
+        var name = document.getElementById('name').value;
+        var age = parseInt(document.getElementById('age').value);
+
+        if (isNaN(age)) {
+            document.getElementById('resultf').innerHTML = 'Invalid age input. Please enter a valid age.';
+        } else {
+            if (age >= 18 && age < 100) {
+                document.getElementById('resultf').innerHTML = `Hello ${name}, you are allowed to vote!`;
+            } else if (age < 18) {
+                document.getElementById('resultf').innerHTML = 'Sorry, you are not ready to vote.';
+            } else {
+                document.getElementById('resultf').innerHTML = `Sorry ${name}, you are not allowed to vote because you are 100 years old or older.`;
+            }
+        }
+    }
+</script>
+
+<!-- PROGRAM7 -->
+<script>
+    function calculate() {
+        var a = parseFloat(document.getElementById('num1g').value);
+        var b = parseFloat(document.getElementById('num2g').value);
+        var resultElement = document.getElementById('resultg');
+        var answer;
+
+        if (a === b) {
+            answer = a - b;
+        } else if (a > b) {
+            answer = a + b;
+        } else {
+            answer = a * b;
+        }
+
+        resultElement.innerHTML = 'ANSWER: ' + answer;
+    }
+</script>
+
+<!-- PROGRAM 8 -->
+<script>
+    function check() {
+        var A = parseFloat(document.getElementById('num1h').value);
+        var B = parseFloat(document.getElementById('num2h').value);
+        var resulth = A / B;
+
+        var resultElement = document.getElementById('resulth');
+
+        if (resulth % 2 === 0) {
+            resultElement.innerHTML = 'ANSWER: ' + resulth + ' (EVEN)';
+        } else {
+            resultElement.innerHTML = 'ANSWER: ' + resulth + ' (ODD)';
+        }
+    }
+</script>
+<!-- PROGRAM 9 -->
+<script>
+    function computeGrade() {
+        var numOfCorrect = parseFloat(document.getElementById('numCorrect').value);
+        var numOfItems = parseFloat(document.getElementById('numItems').value);
+
+        if (numOfCorrect < 0 || numOfItems <= 0 || numOfCorrect > numOfItems || numOfCorrect > 100) {
+            document.getElementById('resulti').innerHTML = "Invalid input. Please enter valid values.";
+            return;
+        }
+
+        var egrade = (numOfCorrect / numOfItems) * 60 + 40;
+        var grade = '';
+
+        if (egrade >= 75 && egrade <= 80) {
+            grade = "NOT BAD";
+        } else if (egrade >= 81 && egrade <= 85) {
+            grade = "GOOD";
+        } else if (egrade >= 86 && egrade <= 90) {
+            grade = "VERY GOOD";
+        } else if (egrade >= 91 && egrade <= 95) {
+            grade = "WITTY TO";
+        } else if (egrade >= 96 && egrade <= 100) {
+            grade = "WELCOME SA NEXT LEVEL";
+        } else {
+            grade = "SORRY, KULANG PA SA EFFORT...";
+        }
+
+        document.getElementById('resulti').innerHTML = "Grade: " + grade + " (" + egrade + ")";
+    }
+</script>
+</html>
